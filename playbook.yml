@@ -1,0 +1,25 @@
+- name: invoice ninja playbook
+  hosts: all
+  become: yes
+  become_user: root
+  vars:
+    install_packages:
+      - php-gmp
+
+  roles:
+    - role: base
+      vars:
+        unattended_upgrade_mail: "root@localhost"
+    - role: web
+    - role: database
+      databases:
+        vagrant:
+          username: invoiceninja
+          password: ixieShomeij0
+          database: invoiceninja
+          privileges: invoiceninja.*:ALL
+
+  post_tasks:
+    - name: install packages
+      apt:
+        name: "{{ install_packages }}"
