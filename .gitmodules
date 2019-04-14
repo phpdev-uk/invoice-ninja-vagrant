@@ -1,9 +1,0 @@
-[submodule "roles/base"]
-	path = roles/base
-	url = https://github.com/pwaring/ansible-role-base
-[submodule "roles/web"]
-	path = roles/web
-	url = https://github.com/pwaring/ansible-role-web
-[submodule "roles/database"]
-	path = roles/database
-	url = https://github.com/pwaring/ansible-role-database
