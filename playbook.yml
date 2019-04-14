@@ -9,10 +9,10 @@
     php_version: 7.2
     git_repository: 'https://github.com/invoiceninja/invoiceninja.git'
     database:
-      name: invoiceninja
-      username: invoiceninja
-      password: jah6Eiciph0D
-      privileges: invoiceninja.*:ALL
+      name: ninja
+      username: ninja
+      password: ninja
+      privileges: ninja.*:ALL
     install_packages:
       - python3-mysqldb
       - composer
