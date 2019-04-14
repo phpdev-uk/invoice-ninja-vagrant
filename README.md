@@ -18,3 +18,18 @@ have the latest version of the base box. A new version is released most weeks.
 Once the VM has started, vist the following URL to complete the installation:
 
 http://127.0.0.1:8080
+
+## Terms and Privacy
+
+Self-hosted instances of Invoice Ninja are subject to:
+
+Privacy Policy:
+https://www.invoiceninja.com/self-hosting-privacy-data-control/
+
+Terms:
+https://www.invoiceninja.com/self-hosting-terms-service/
+
+The author of this repository has no association with Invoice Ninja and
+has no control over their processing of any data which they collect from
+self-hosted instances.
+
